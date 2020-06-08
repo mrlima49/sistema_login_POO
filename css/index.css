@@ -1,0 +1,47 @@
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 1fr) 1fr;
+}
+
+.container section{
+   grid-column-start: 2;
+   grid-column-end: 5;
+}
+
+.container h1{
+    margin-top: 15px;    
+}
+
+.container section form input, button{
+    width: 500px;
+    height: 40px;
+    margin: 8px 0px;
+    border-radius: 7px;
+    border: 1px solid #f0f0f5;
+    padding-left: 5px;
+}
+
+.container button{
+    background-color: darkcyan;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.green{
+    color: green;
+    text-transform: uppercase;
+}
+
+.red{
+    color: red;
+    text-transform: uppercase;
+}
